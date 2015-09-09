@@ -1,0 +1,26 @@
+public class Square {
+    private double Width;
+    private String Color;
+    
+    public Square(){
+        Width = 2.0;
+        Color = "blue";
+    }
+    public Square(double w){
+        Width = w;
+        Color = "blue";
+    }
+    public Square(double w, String c){
+        Width = w;
+        Color = c;
+    }
+    public double getWidth(){
+        return Width;
+    }
+    public String getColor(){
+        return Color;
+    }
+    public double getArea(){
+        return Math.pow(Width, 2);
+    }
+}
